@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "6806c082-d635-4930-a742-c9358642465d",
+		"name": "Blockchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31875634"
+	},
+	"item": [
+		{
+			"name": "NFT Metadata",
+			"item": [
+				{
+					"name": "NFT search by address and token",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/nft/0x806abb5db920af053530e81e12cb7569c117b6e1/2543543543544444444444444",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"nft",
+								"0x806abb5db920af053530e81e12cb7569c117b6e1",
+								"2543543543544444444444444"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cryptocurrency Transaction",
+			"item": [
+				{
+					"name": "Query transactions by address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/transactions/0x61d8838f9A00250C9AF13D622DA7c08c372ee587?startDate=2024/11/08&endDate=2024/11/27",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"transactions",
+								"0x61d8838f9A00250C9AF13D622DA7c08c372ee587"
+							],
+							"query": [
+								{
+									"key": "startDate",
+									"value": "2024/11/08"
+								},
+								{
+									"key": "endDate",
+									"value": "2024/11/27"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Store transactions by address",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/transactions/0x61d8838f9A00250C9AF13D622DA7c08c372ee587/sync",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"transactions",
+								"0x61d8838f9A00250C9AF13D622DA7c08c372ee587",
+								"sync"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
