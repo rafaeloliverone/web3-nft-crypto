@@ -61,30 +61,12 @@ Use this endpoint to explore and test the available API routes interactively.
 
 ---
 
-## Development
-
-### Local Git Configuration
-Ensure that your local Git user is properly configured for commits in this repository:
-```bash
-git config --local user.name "Your Name"
-git config --local user.email "your-email@example.com"
-```
 
 ### Project Structure
 - **`src/routes`**: Contains all route definitions.
 - **`src/controllers`**: Business logic for each endpoint.
 - **`swagger/`**: Swagger configuration for API documentation.
 - **`.env`**: Environment-specific configuration variables.
-
----
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
 
 ---
 
@@ -97,6 +79,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For inquiries or support, reach out to:  
-- **Name**: Rafael Oliverone  
-- **Email**: rafael@example.com  
+- **Name**: Rafael Olivera Batista
+- **Email**: rafaelbatista.developer@gmail.com
 - **GitHub**: [rafaeloliverone](https://github.com/rafaeloliverone)
