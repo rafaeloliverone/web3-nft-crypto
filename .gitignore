@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório do sistema de depuração
+.pnpm-debug.log*
+
+# Ambiente do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências
+node_modules/
+
+# Output de build
+dist/
+build/
+
+# Diretório de testes
+coverage/
+
+# Ambiente de configuração
+.env
+.env.*.local
+
+# Editores/IDE
+.idea/
+.vscode/
+*.swp
+
+# Cache
+.nyc_output/
+.cache/
+.next/
+
+# Configurações específicas do sistema
+*.local
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos gerados por compilação
+*.tsbuildinfo
+*.log
+
+# PM2
+pm2-log.txt
+pids
+
+# Debug do REPL
+*.repl_history
+
+# Arquivos de pacotes antigos
+*.tgz
+
+# Configurações de scripts Shell
+*.sh-e
+
+# Arquivos temporários
+.tmp
+temp
